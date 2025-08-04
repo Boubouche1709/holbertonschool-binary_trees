@@ -1,4 +1,4 @@
-#include "birary_trees.h"
+#include "binary_trees.h"
 
 /**
 * binary_tree_preorder - oes through a binary tree using pre-order traversal
