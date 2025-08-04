@@ -2,7 +2,7 @@
 
 /**
 * binary_tree_is_leaf - delete an entire tree
-* @node: tree to delete
+* @node: node to check
 * Return: 1 if is a node, 0 otherwise
 */
 int binary_tree_is_leaf(const binary_tree_t *node)
