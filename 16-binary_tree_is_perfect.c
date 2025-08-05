@@ -33,7 +33,8 @@ return (d == level + 1);
 if (tree->left == NULL || tree->right == NULL)
 return (0);
 
-return (is_perfect(tree->left, d, level + 1) && is_perfect(tree->right, d, level + 1));
+return (is_perfect(tree->left, d, level + 1) &&
+is_perfect(tree->right, d, level + 1));
 }
 
 /**
